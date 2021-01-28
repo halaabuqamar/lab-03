@@ -28,9 +28,7 @@ if (order === 'Big tasty') {
     itemOrder = '<img src="pictures/bigmac.jpg"/>';
 } 
 
-
 var more = prompt('To order more??write yes?')
-
 
 var truth = prompt('Please enter the number of meals you would like to order');
 
