@@ -9,7 +9,7 @@ else if (nomeals >= 11 && nomeals <= 20) {
     OrderDetails = "Congrats you won TWO free meals";
 }
 else {
-    OrderDetails = "Good Luck Next Time";
+    OrderDetails = "Good Luck Next Time or order more and get free meals";
 }
 
 
@@ -29,8 +29,10 @@ if (order === 'Big tasty') {
 } 
 
 
+var more = prompt('To order more??write yes?')
 
-var truth = prompt('Are you sure you bought more than 3 ?if yes enter the number again??');
+
+var truth = prompt('Please enter the number of meals you would like to order');
 
 var result = '';
 
@@ -52,4 +54,4 @@ if (branch == "abdoun" || branch == "7th circle" || branch == "swefieh" || branc
     branchdetails = "you are not being a loyal customer :p";
 }
 
-alert('Are You LOvin It');
+alert('please check the buttom of the page for free meals :) Are You LOvin It :D ');
