@@ -12,6 +12,35 @@ else {
     OrderDetails = "Good Luck Next Time";
 }
 
+
+// ------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------
+var order = prompt('have you ordered Big tasty or Big mac inter the name?'); 
+
+while (order !== 'Big tasty' && order !== "Big mac") {
+    order = prompt('have you ordered Big tasty or Big mac inter the name?');  
+} 
+
+var itemOrder;
+if (order === 'Big tasty') {
+    itemOrder =  '<img src="pictures/bigtasty.jpg"/>';
+} else if (order === 'Big mac') {
+    itemOrder = '<img src="pictures/bigmac.jpg"/>';
+} 
+
+
+
+var truth = prompt('Are you sure you bought more than 3 ?if yes enter the number again??');
+
+var result = '';
+
+for (var i = 2; i <= truth; i++) {
+  result = result + itemOrder;
+}
+
+document.write(result);
+
+
 document.write(OrderDetails);
 // document.getElementById("order").innerText = nomeals;
 
