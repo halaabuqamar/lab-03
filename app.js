@@ -34,7 +34,7 @@ var truth = prompt('Are you sure you bought more than 3 ?if yes enter the number
 
 var result = '';
 
-for (var i = 2; i <= truth; i++) {
+for (var i = 2; i < truth; i++) {
   result = result + itemOrder;
 }
 
