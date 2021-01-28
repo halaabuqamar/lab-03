@@ -36,7 +36,7 @@ var truth = prompt('Please enter the number of meals you would like to order');
 
 var result = '';
 
-for (var i = 2; i < truth; i++) {
+for (var i = 0; i < truth; i++) {
   result = result + itemOrder;
 }
 
