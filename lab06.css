@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+  }
+  
+h1 {
+    background-color: #df5f5f;
+  }
+
+main a{
+    color: red;
+    text-decoration: underline;
+  }
+
+p{
+   background-color:rgb(245, 255, 152);
+
+  }
+
+ul {
+    color: purple;
+}
+ 
+img {
+     float:right;
+}
