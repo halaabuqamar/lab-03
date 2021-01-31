@@ -1,5 +1,7 @@
 var nomeals = prompt("How Many Meals Did you buy?");
 
+var userName = prompt('Enter your name?');
+    greet(); 
 var OrderDetails;
 
 if (nomeals >= 3 && nomeals <= 10) {
@@ -15,18 +17,18 @@ else {
 
 // ------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------
-var order = prompt('have you ordered Big tasty or Big mac inter the name?'); 
+var order = prompt('have you ordered Big tasty or Big mac inter the name?');
 
 while (order !== 'Big tasty' && order !== "Big mac") {
-    order = prompt('have you ordered Big tasty or Big mac inter the name?');  
-} 
+    order = prompt('have you ordered Big tasty or Big mac inter the name?');
+}
 
 var itemOrder;
 if (order === 'Big tasty') {
-    itemOrder =  '<img src="pictures/bigtasty.jpg"/>';
+    itemOrder = '<img src="pictures/bigtasty.jpg"/>';
 } else if (order === 'Big mac') {
     itemOrder = '<img src="pictures/bigmac.jpg"/>';
-} 
+}
 
 var more = prompt('To order more??write yes?')
 
@@ -35,7 +37,7 @@ var truth = prompt('Please enter the number of meals you would like to order');
 var result = '';
 
 for (var i = 0; i < truth; i++) {
-  result = result + itemOrder;
+    result = result + itemOrder;
 }
 
 document.write(result);
@@ -53,3 +55,12 @@ if (branch == "abdoun" || branch == "7th circle" || branch == "swefieh" || branc
 }
 
 alert('please check the buttom of the page for free meals :) Are You LOvin It :D ');
+greet();
+
+
+
+// function 2
+function greet(params) {
+    prompt("hello there :)");
+    }
+
